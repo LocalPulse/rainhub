@@ -1,4 +1,5 @@
 local ScreenGui = Instance.new("ScreenGui")
+local ScreenGui2 = Instance.new("ScreenGui")
 local Menu = Instance.new("Frame")
 local Tabs = Instance.new("Frame")
 local Selectline = Instance.new("Frame")
@@ -50,6 +51,9 @@ local DropDownOpenIdx = -1
 ScreenGui.Parent = game.CoreGui
 ScreenGui.Name = "RainHub"
 
+ScreenGui2.Parent = game.CoreGui
+ScreenGui2.Name = "Button"
+
 Menu.Parent = ScreenGui
 Menu.Name = "RainHub"
 Menu.Active = true
@@ -64,7 +68,7 @@ UICorner.Parent = Menu
 -----------------------------------------------
 
 local button = Instance.new("TextButton")
-button.Parent = ScreenGui
+button.Parent = ScreenGui2
 button.Name = "RightSideButton"
 button.Size = UDim2.new(0.1, 0, 0.05, 0)
 button.Position = UDim2.new(0.9, 0, 0.5, 0)
