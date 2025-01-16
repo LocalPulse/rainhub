@@ -1604,7 +1604,7 @@ function RenderTextBox(TextBoxSettings)
 	return TextBox
 end
 
-RenderButton( { Parent = Up, Name = "Unload", ParentSize = Up.Size,  Position = UDim2.new(0, 365, 0, 5), Size = UDim2.new(0, 77, 0, 26), callback = function() Menu:Destroy() end } )
+RenderButton( { Parent = Up, Name = "Unload", ParentSize = Up.Size,  Position = UDim2.new(0, 365, 0, 5), Size = UDim2.new(0, 77, 0, 26), callback = function() Menu:Destroy() Button:Destroy() end } )
 
 --Logo
 RainHub.Name = "RainHub"
