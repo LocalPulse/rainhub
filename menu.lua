@@ -99,7 +99,7 @@ button.MouseLeave:Connect(function()
 end)
 
 button.MouseButton1Click:Connect(function()
-    game.CoreGui.RainHub.RainHub.Visible = not Menu.Visible
+    Menu.Visible = not Menu.Visible
 end)
 
 ----------------------------------------------------------
